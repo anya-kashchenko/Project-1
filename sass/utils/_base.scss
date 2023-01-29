@@ -1,0 +1,28 @@
+html {
+    box-sizing: border-box;
+
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+body{
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Titan One', cursive;
+}
+h1, h2,  p{
+    margin: 0;
+}
+body.modal-open {
+    overflow: hidden;
+}
+
+body.menu-open {
+    overflow: hidden;
+}

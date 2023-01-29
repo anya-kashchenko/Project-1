@@ -1,0 +1,232 @@
+.page{
+   margin: 0;
+    .container-button{
+        display: inline-flex;
+        align-items: center;
+        justify-content: space-between;
+        min-height: 80px;
+        position: relative;
+        display: flex;
+        
+       
+        @media screen and (min-width: 768px) {
+            display: inline-flex;
+            align-items: center;
+            justify-content: space-between;
+            min-height: 80px;
+            position: relative;
+                }
+
+
+      
+    }
+}
+.container-button{
+    @media screen and (max-width: 450px) {
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+}
+.page-header{
+    position: relative;
+    background-color: #FFB8CA;
+
+
+    @media screen and (min-width: 768px) {
+        padding-top: 37px;}
+    @media screen and (min-width:768px) {
+
+    .container-button {
+        display: flex;
+        margin:0
+        }
+    }
+    @media screen and (min-width:768px) {
+    .container-button {
+        display: flex;
+        margin: 0;}
+    }
+}
+.header{
+    position: absolute;
+    z-index: 100;
+    margin: 0 auto;
+    width: 100%;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+    @media screen and (min-width: 320px) {
+        width: 320px;
+    }
+    
+    @media screen and (min-width: 768px) {
+        width: 768px;
+    }
+    
+    @media screen and (min-width: 1200px) {
+        width: 1200px;
+    }
+}
+.logo-img{
+    @media screen and (min-width: 320px) {
+       
+    }
+    @media screen and (min-width: 768px) {
+    margin-right: 110px;
+        }
+    
+}
+.menu-list{
+    font-family: 'DM Sans';
+    list-style: none;
+    padding: 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    
+    @media screen and (max-width: 767px) {
+        display: flex;
+        flex-direction: column;
+        font-size: 14px;
+        line-height: 18px;  
+    }
+
+    @media screen and (min-width: 1200px) {
+        display: flex;
+        padding-left: 0;
+        }
+    
+}
+.menu-item{
+    @media screen and (max-width: 767px) {
+    &:not(:last-child) {
+        margin-bottom: 22px;}
+        }
+    
+    @media screen and (min-width: 1200px) {
+    &:not(:last-child) {
+        margin-right: 35px;
+    }
+}
+}
+.menu-link{
+    text-decoration: none;
+    color: #FFFFFF;
+
+    &:hover,
+    &:focus{
+        color: #D41443;
+    }
+}
+.menu-link--primary{
+    color:#D41443;
+    text-decoration: none;
+
+}
+.button-buy{
+    background: #FFFFFF;
+    border-radius: 22px;
+    
+    border: 0;
+    cursor: pointer;
+    
+    background-image: url(/images/Vector-1.svg);
+    background-repeat: no-repeat;
+     
+
+    @media screen and (min-width: 320px) {
+        background-position: 160px;
+        padding: 12px 86px 12px 80px;
+    }   
+
+    @media screen and (min-width: 768px) {
+        margin-left: 110px; 
+        background-position: 110px;
+        padding: 12px 53px 12px 37px;
+    }
+
+}
+.button-buy span{
+    color:#D41443;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.button-menu {
+    cursor: pointer;
+    display: block;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+
+    @media screen and (min-width:768px) {
+        margin-left:162px ;
+      
+    }
+   
+    @media screen and (min-width:1200px) {
+        display: none;
+    }
+}
+
+.button-menu .icon-cross {
+    display: none;
+}
+
+.button-menu.is-open .icon-cross {
+    display: block;
+}
+
+.button-menu.is-open .icon-menu {
+    display: none;
+}
+
+.menu-container.is-open {
+    display: block;
+}
+
+.menu-container {
+    @media screen and (max-width:767px) {
+        background-color: #E17992;
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 20px;
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0%;
+        width: 100%;
+    }
+
+
+  @media screen and (max-width:1199px) {
+        background-color: #E17992;
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 20px;
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0%;
+        width: 100%;
+      
+}
+
+    @media screen and (min-width:1200px) {
+    display: flex;
+}
+}
+
